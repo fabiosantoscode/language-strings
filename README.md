@@ -19,6 +19,6 @@ You can also require the functions individually to save space if you're writing 
 ```javascript
 const html = require('language-strings/html')
 
-html`<span>${unsafeValue}</span>
+html`<span>${unsafeValue}</span>`
 ```
 
