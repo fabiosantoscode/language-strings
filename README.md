@@ -12,3 +12,11 @@ strings.css`background: url(data:image/svg+xml,${svg})`
 strings.url`/foo/bar/${valueWithMaybeSlashes}`
 ```
 
+You can also require the functions individually to save space if you're writing frontend code.
+
+```javascript
+const html = require('language-strings/html')
+
+html`<span>${unsafeValue}</span>
+```
+
