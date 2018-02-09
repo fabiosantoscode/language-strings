@@ -1,5 +1,7 @@
 # Language Strings
 
+[![Build Status](https://travis-ci.org/fabiosantoscode/language-strings.svg?branch=master)](https://travis-ci.org/fabiosantoscode/language-strings)
+
 Interpolate safely in several languages using ES6 template literals.
 
 ```javascript
