@@ -22,4 +22,10 @@ describe('require("language-strings")', () => {
       String.raw`* { background: url(http\:\/\/www\.placecage\.com\/200\/300); }`
     )
   })
+  it('escapes URL components', () => {
+    assert.equal(
+      languageStrings.url`/foo/${'foo/bar'}`,
+      '/foo/foo%2Fbar'
+    )
+  })
 })

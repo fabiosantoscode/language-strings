@@ -18,3 +18,5 @@ exports.shell = escaper(s => escapeShell([s]))
 
 exports.css = escaper(escapeCss)
 
+exports.url = escaper(encodeURIComponent)
+
