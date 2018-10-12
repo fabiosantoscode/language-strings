@@ -1,3 +1,5 @@
+'use strict'
+
 const languageStrings = require('..')
 const assert = require('assert')
 

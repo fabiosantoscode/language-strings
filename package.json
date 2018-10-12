@@ -9,10 +9,13 @@
     "shell-escape": "^0.2.0"
   },
   "devDependencies": {
+    "coveralls": "^3.0.2",
+    "istanbul": "^0.4.5",
     "mocha": "^3.4.2"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "coveralls": "istanbul cover ./node_modules/.bin/_mocha && coveralls < coverage/lcov.info"
   },
   "repository": {
     "type": "git",

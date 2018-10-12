@@ -1,6 +1,6 @@
 # Language Strings
 
-[![Build Status](https://travis-ci.org/fabiosantoscode/language-strings.svg?branch=master)](https://travis-ci.org/fabiosantoscode/language-strings)
+[![Build Status](https://travis-ci.org/fabiosantoscode/language-strings.svg?branch=master)](https://travis-ci.org/fabiosantoscode/language-strings) [![Coverage Status](https://coveralls.io/repos/github/fabiosantoscode/language-strings/badge.svg?branch=master)](https://coveralls.io/github/fabiosantoscode/language-strings?branch=master)
 
 Interpolate safely in several languages using ES6 template literals.
 
