@@ -28,4 +28,11 @@ describe('require("language-strings")', () => {
       '/foo/foo%2Fbar'
     )
   })
+  it('respects unsafe strings', () => {
+    const unsafeStr = languageStrings.unsafe('<unsafe>')
+    assert.equal(
+      languageStrings.html`<div>${unsafeStr}</div>`,
+      '<div><unsafe></div>'
+    )
+  })
 })

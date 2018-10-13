@@ -22,3 +22,12 @@ const html = require('language-strings/html')
 html`<span>${unsafeValue}</span>`
 ```
 
+You can mark unsafe values that are to be put directly into the string by using `require('language-strings').unsafe` or `require('language-strings/unsafe')()`
+
+
+```javascript
+const html = require('language-strings/html')
+const unsafe = require('language-strings/unsafe')
+
+html`<title>${"hello world"}</title><body>${unsafe(userInput)}</body>`
+```
